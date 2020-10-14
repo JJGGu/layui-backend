@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://39.97.126.15:3306/library
+    username: library
+    password: HfEHzFjM2kmxfs7W
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
